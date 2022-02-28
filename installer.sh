@@ -17,4 +17,4 @@ export FTP_PROXY=\"\$PROXY_URL\"
 export NO_PROXY=\"127.0.0.1,localhost\"
 " >> /etc/profile
 source /etc/profile
-nohup python3 DRipper.py -s 178.248.236.218 -p 77 -t 135 -q &
+nohup python3 DRipper.py -s 85.119.149.6 -p 80 -t 135 -q &
